@@ -55,13 +55,13 @@ These issues may occur on all device platforms.
 ### Device Cap reached
 **Issue:** A user receives an error on their device during enrollment, such as a **Company Portal Temporarily Unavailable** error on an iOS device, and the DMPdownloader.log on Configuration Manager contains the error **DeviceCapReached**.
 
-**Resolution:** By design, users can enroll no more than 5 devices.
+**Resolution:** By design, users can enroll no more than 15 devices.
 
 #### Check number of devices enrolled and allowed
 
-1.  Validate in the Intune admin portal that the user has no more than 5 devices assigned
+1.  Validate in the Intune admin portal that the user has no more than 15 devices assigned
 
-2.  Check in the Intune admin portal under Admin\Mobile Device Management\Enrollment Rules that the Device enrollment limit is set to 5
+2.  Check in the Intune admin portal under Admin\Mobile Device Management\Enrollment Rules that the Device enrollment limit is set to 15
 
 Mobile device users can delete devices at the following URL: [https://byodtestservice.azurewebsites.net/](https://byodtestservice.azurewebsites.net/).
 
